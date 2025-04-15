@@ -22,6 +22,8 @@ hdfs dfsadmin -report
 # If namenode in safemode then leave it
 hdfs dfsadmin -safemode leave
 
+hdfs dfs -mkdir -p /index/data
+
 # create a directory for spark apps in HDFS
 hdfs dfs -mkdir -p /apps/spark/jars
 hdfs dfs -chmod 744 /apps/spark/jars
