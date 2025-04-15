@@ -4,7 +4,11 @@
 ## Step 1: Install prerequisites
 - Docker
 - Docker compose
-## Step 2: Run the command
+
+## Step 2: Download a.parquet and put it inside app/ folder
+https://www.kaggle.com/datasets/jjinho/wikipedia-20230701?select=a.parquet
+
+## Step 3: Run the command
 ```bash
 docker compose up 
 ```
